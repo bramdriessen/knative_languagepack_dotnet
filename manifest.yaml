@@ -1,3 +1,9 @@
-schema_version: 0.0.1
 name: dotnet
-version: 0.0.1
+
+runtimes:
+  - path: dotnet
+    name: dotnet C#
+
+    templates:
+    - path: cloudevents
+      name: cloudevents
